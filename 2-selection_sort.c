@@ -30,7 +30,7 @@ void selection_sort(int *array, size_t size)
 			if (array[min_idx] > array[j])
 				min_idx = j;
 		}
-		/*swapping*/
+		/*swapping */
 		if (array[min_idx] != array[i])
 		{
 			temp = array[i];
